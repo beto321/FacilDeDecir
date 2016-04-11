@@ -10,6 +10,14 @@ int isVowel(char ch){
     return 0;
 }
 
+int rule_1(){
+    int i;
+    for(i=0; i<len; i++)
+        if(isVowel(word[i]))
+            return 1;
+    return 0;
+}
+
 
 int main()
 {
