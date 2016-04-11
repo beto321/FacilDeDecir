@@ -10,7 +10,21 @@ int isVowel(char ch){
     return 0;
 }
 
-
+int rule_2(){
+    int i, v=0, v=0;
+    for(i=0; i<len; i++){
+        if(isVowel(word[i])){
+            v++;
+            c=0;
+        }else{
+            c++;
+            v=0;
+        }
+        if(v==3 || c==3)
+            return 0;
+    }
+    return 1;
+}
 int main()
 {
 
