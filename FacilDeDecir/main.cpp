@@ -25,6 +25,16 @@ int rule_2(){
     }
     return 1;
 }
+
+int rule_3(){
+    int i;
+    for(i=1; i<len; i++){
+        if(word[i]==word[i-1]&& word[i]!='e'&&word[i]!='o')
+            return 0;
+    }
+    return 1;
+}
+
 int main()
 {
 
