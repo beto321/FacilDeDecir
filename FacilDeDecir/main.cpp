@@ -10,6 +10,8 @@ int isVowel(char ch){
     return 0;
 }
 
+
+
 int rule_2(){
     int i, v=0, v=0;
     for(i=0; i<len; i++){
@@ -37,7 +39,13 @@ int rule_3(){
 
 int main()
 {
-
+    while(1){
+        scanf("%s", word);
+        if(strcmp(word,"end")==0)
+            break;
+        len=strlen(word);
+        if()
+    }
 
     return 0;
 }
